@@ -1,0 +1,16 @@
+{
+  "name": "yorozu.menu-item",
+  "version": "1.0.0",
+  "displayName": "Yorozu Menu Item",
+  "description": "便利な Menu一覧",
+  "unity": "2020.3",
+  "keywords": [
+    "EditorTool",
+    "Yorozu"
+  ],
+  "author": {
+    "name": "Yorozu",
+    "email": "hatch.tech.eng@gmail.com",
+    "url": "https://github.com/yayorozu"
+  }
+}

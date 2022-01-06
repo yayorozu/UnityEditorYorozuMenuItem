@@ -13,7 +13,7 @@ namespace Yorozu.EditorTool
 			CompilationPipeline.RequestScriptCompilation();
 		}
 
-		[MenuItem("Tools/ChangeDefaultSkin")]
+		[MenuItem(YorozuMenuItem.ToolPath + "ChangeDefaultSkin")]
 		private static void ChangeDefaultSkin()
 		{
 			if (!EditorGUIUtility.isProSkin)
@@ -22,7 +22,7 @@ namespace Yorozu.EditorTool
 			ChangeSkin();
 		}
 
-		[MenuItem("Tools/ChangeProSkin")]
+		[MenuItem(YorozuMenuItem.ToolPath + "ChangeProSkin")]
 		private static void ChangeProSkin()
 		{
 			if (EditorGUIUtility.isProSkin)
